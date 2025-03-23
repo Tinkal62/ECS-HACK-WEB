@@ -1,0 +1,97 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("profile.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+.div1{
+    size: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+button a{
+    text-decoration: none;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(53, 172, 241);
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: lightgray;
+}
+.hidden {
+    display: none;
+}
+.registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:100PX;
+    width: 100%;
+
+}
+.register2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100PX;
+    width: 100%;
+}
+.register1 a, .register2 a{
+    text-decoration: none;
+    color: white;
+}
+.register1 div, .register2 div{
+    height: 30px;
+    padding: 10px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.register1 div:hover, .register2 div:hover{
+    background-color:rgb(37, 164, 255);
+
+}
+
